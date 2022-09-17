@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/drawable/bgoflayout.xml" value="0.2625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/activity_main.xml" value="0.31068840579710144" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/activity_web.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/dialogofnoconnectivity.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_bussiness.xml" value="0.3390625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_entertaitment.xml" value="0.3446557971014493" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_h_o_m_e.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_science.xml" value="0.3446557971014493" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_sports.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/fragment_tech.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/no_internet_dialog.xml" value="0.264" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/singlenews.xml" value="0.35625" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/layout/topnewz.xml" value="0.264" />
+        <entry key="..\:/Appdev2/MyNewZtest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Heading of the new"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:id="@+id/newsheading"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textStyle="bold">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="160dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:layout_height="130dp"
+            android:ellipsize="end"
+            android:id="@+id/contentofnews"
+            android:maxLines="6"
+            android:text="69999999966666666666666666666666666666666666666666666666666666666666">
+
+        </TextView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/newsImage"
+            android:layout_width="165dp"
+            android:layout_height="150dp"
+           android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+
+            app:shapeAppearanceOverlay="@style/roundedcorners"
+            app:srcCompat="@drawable/ic_launcher_background">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:id="@+id/authorname"
+        android:text="By Pranjal"></TextView>
+
+</LinearLayout>

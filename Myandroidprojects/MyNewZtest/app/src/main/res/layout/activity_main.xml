@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/tb"
+            android:layout_height="wrap_content"
+            app:layout_collapseMode="parallax"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="top|center"
+                    app:srcCompat="@drawable/google_pixel_6_pro__1">
+
+                </ImageView>
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingStart="2dp"
+                    android:layout_gravity="center|bottom"
+                    app:tabGravity="fill"
+                    android:id="@+id/Realjdk"
+                    app:tabIconTint="@color/cardview_shadow_end_color"
+                    app:tabIndicator="@drawable/bgoflayout"
+                    app:tabIndicatorAnimationMode="elastic"
+
+
+                    app:tabIndicatorColor="#00000000"
+                    app:tabIndicatorGravity="stretch"
+                    app:tabMode="scrollable"
+                    app:tabSelectedTextColor="@color/white">
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Home"
+                        android:text="HOME" />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Science"
+                        android:text="Science" />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Tech"
+                        android:text="Tech" />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:id="@+id/Bussiness"
+                        android:layout_height="wrap_content"
+                        android:text="BUSSiNESS" />
+
+                    <com.google.android.material.tabs.TabItem
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Sports"
+                        android:text="Sports" />
+
+                    <com.google.android.material.tabs.TabItem
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/education"
+                        android:text="Education" />
+                </com.google.android.material.tabs.TabLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/view11">
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
